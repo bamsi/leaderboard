@@ -62,7 +62,7 @@ h2 {
 }
 
 button,
-input[type=submit] {
+input[type="submit"] {
   border: 2px solid #000;
   padding: 6px;
   box-shadow: 5px 5px #000;
@@ -81,7 +81,8 @@ input[type=submit] {
   display: flex;
 }
 
-.add-form input[type=text] {
+.add-form input[type="text"],
+input[type="number"] {
   padding: 6px;
   border: 2px solid #000;
   width: 100%;
