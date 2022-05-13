@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.wrapper {
+  margin: 0 10% 0 10%;
+  font-family: "Open Sans", "Lucida Grande", tahoma, verdana, arial, sans-serif;
+}
+
+.page-title {
+  font-weight: 900;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.content {
+  margin-left: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.scores {
+  margin-right: 2rem;
+}
+
+.title,
+.score-title {
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+  border: 2px solid #000;
+  padding: 1rem;
+}
+
+.list-item {
+  padding: 6px;
+}
+
+.list-item:nth-child(even) {
+  background-color: #ddd;
+}
+
+button,
+input[type=submit] {
+  border: 2px solid #000;
+  padding: 6px;
+  box-shadow: 5px 5px #000;
+}
+
+.add-form {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 5px;
+}
+
+.add-form li {
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.add-form input[type=text] {
+  padding: 6px;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.submit-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
