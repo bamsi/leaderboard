@@ -1,12 +1,12 @@
-import leaderBoard from "./resource";
+import { LeaderBoard } from './resource.js';
 
 function loadData() {
-  const obj = new leaderBoard();
-  const list = document.querySelector(".list");
+  const obj = new LeaderBoard();
+  const list = document.querySelector('.list');
   obj.getData().then((response) => {
-    //display data
-    let data = response.result;
-    let itemList = "";
+    // display data
+    const data = response.result;
+    let itemList = '';
     data.forEach((element) => {
       itemList += `<li class="list-item"> ${element.user}: ${element.score}</li>`;
     });
