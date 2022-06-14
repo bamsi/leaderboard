@@ -6,6 +6,8 @@ This is a project structure for the leaderboard which has been designed using ht
 
 HTML, JS (ES6), CSS, and Webpack.
 
+## Live link
+[live demo](https://kaleidoscopic-flan-2fcb9c.netlify.app)
 ## Getting Started
 
 Please do the following to setup project locally
